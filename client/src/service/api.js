@@ -1,5 +1,5 @@
 import axios from 'axios';
-const usersUrl = 'http://localhost:5000';
+const usersUrl = 'https://crud-opn.onrender.com'
 
 export const getUsers = async (id) => {
     id = id || '';
